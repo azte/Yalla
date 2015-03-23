@@ -12,7 +12,25 @@
 		      {{ Form::text('title',null, array('placeholder' => 'Titulo', 'class' => 'form-control')) }}        
 		    </div>
 
-		 
+		 	<div class="form-group col-md-3">
+	      		{{ Form::label('type', 'Tipo') }}
+	     		 {{ Form::select('type', 
+
+	      			array(
+	      				   'Música' => 'Música',
+	      				   'Internet' => 'Internet',
+	      				   'Ocio' => 'Ocio',
+	      				   
+
+
+
+	      				   ), 
+
+
+
+
+	      				   null, array('class' => 'form-control'))}}
+	</div>
 
 
 		</div>
