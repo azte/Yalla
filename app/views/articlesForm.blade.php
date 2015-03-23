@@ -12,10 +12,7 @@
 		      {{ Form::text('title',null, array('placeholder' => 'Titulo', 'class' => 'form-control')) }}        
 		    </div>
 
-		    <div class="form-group col-md-4">
-		      {{ Form::label('title', 'Titulo') }}
-		      {{ Form::text('title',null, array('placeholder' => 'Titulo', 'class' => 'form-control')) }}        
-		    </div>
+		 
 
 
 		</div>
