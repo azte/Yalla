@@ -10,11 +10,10 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title>Yalla-Ya</title>
-
-    <!-- Bootstrap en la carpeta public -->
+<!-- Bootstrap en la carpeta public -->
     <link href="{{ asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+<!-- Custom styles for this template -->
     <link href="{{ asset('style.css')}}" rel="stylesheet">
 
    
@@ -27,7 +26,7 @@
         <h1 class="text-muted"><a href='{{URL::route('home')}}'><img class="logo" src="{{ asset('bootstrap/images/yalla.png')}}"></a></h1>
       </div>
 
-      <!--Despliegado Vistas utilizando BLADE  -->
+<!--Desplegado Vistas utilizando BLADE  -->
         @yield('Posts')
         @yield('login')
         @yield('articlesForm')
@@ -40,7 +39,7 @@
     </div> <!-- /container -->
 
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
