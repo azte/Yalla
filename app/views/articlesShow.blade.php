@@ -16,7 +16,7 @@
 	    
 				
 	</div>
-<div>{{$idArticle->cat}}</div>
+
 </div>
 
 <div class="comments">
