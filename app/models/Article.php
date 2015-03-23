@@ -13,6 +13,7 @@ class Article extends Eloquent{
         $rules = array(
             'title' => 'required',
             'text' => 'required',
+            'cat' =>'required',
             
         );
 

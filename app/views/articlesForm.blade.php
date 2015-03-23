@@ -13,8 +13,8 @@
 		    </div>
 
 		 	<div class="form-group col-md-3">
-	      		{{ Form::label('type', 'Categoria') }}
-	     		 {{ Form::select('type', 
+	      		{{ Form::label('cat', 'Categoria') }}
+	     		 {{ Form::select('cat', 
 
 	      			array(
 	      				   'Música' => 'Música',
