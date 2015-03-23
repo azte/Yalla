@@ -11,7 +11,7 @@
 
     <title>Yalla-Ya</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap en la carpeta public -->
     <link href="{{ asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -26,6 +26,8 @@
       <div class="header clearfix">
         <h1 class="text-muted"><a href='{{URL::route('home')}}'><img class="logo" src="{{ asset('bootstrap/images/yalla.png')}}"></a></h1>
       </div>
+
+      <!--Despliegado Vistas utilizando BLADE  -->
         @yield('Posts')
         @yield('login')
         @yield('articlesForm')

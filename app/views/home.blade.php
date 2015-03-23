@@ -5,9 +5,10 @@
   $articles = Article::orderBy('id','DESC')->paginate(4);
 ?>
 
-
+<!-- Revisamos si el Usuario esta Logueado-->
 @if (Auth::check())
 
+<!-- Para Publicar es necesario hacer Login -->
 <div class="logSection">Hola {{Auth::user()->name}}</div>
 	<div class="logSection"><a href='logout'>Cerrar sesión</a></div>
 <div class="logSection">
@@ -23,11 +24,11 @@
 @endif
 
 
-	
+<!-- Vista de los últimos artículos -->
 
 	<h3>Últimos Artículos</h3>
 
-
+<!-- Por cada artículo en BD se muestra una entrada en HOME  -->
 	@foreach($articles as $article)
 
 <div class="row top-buffer">
@@ -40,6 +41,7 @@
 </div>
 @endforeach
 
+<!-- Paginacion Limitada a 4 Posts por página -->
 
 <div class="row">
 	<div class="col-lg-12">
