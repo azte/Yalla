@@ -11,11 +11,15 @@
 |
 */
 
+//Ruta de Inicio
 
 Route::get('/', array( 'as'=> 'home', function()
 {
 	return View::make('home');
 }));
+
+//Ruta de Inicio
+
 
 Route::get('/login', array( 'as'=> 'login', function()
 {
@@ -26,9 +30,14 @@ Route::get('/logout', [
     'as' => 'logout', 'uses' => 'AuthController@logout'
 ]);
 
-Route::resource('users','UsersController');
+//Controladores de Login
+
 Route::post('login', 'AuthController@login');
 Route::get('logout', 'AuthController@logOut');
+
+// Controladores de Recursos
+
+Route::resource('users','UsersController');
 Route::resource('articles', 'ArticlesController');
 Route::resource('comments', 'CommentsController');
 
