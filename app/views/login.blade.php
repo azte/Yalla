@@ -1,6 +1,8 @@
 @extends('layout')
 @section('login')
  
+ <!-- Formulario de Ingreso de Datos-->
+
 
  {{Form::open(['route' => 'login', 'method' => 'POST', 'role' => 'form', 'class' => 'navbar-form'])}}
   
