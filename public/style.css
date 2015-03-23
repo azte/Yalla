@@ -1,0 +1,62 @@
+h2{
+	color:green;
+}
+
+.sectionb{
+	border: solid 2px green;
+}
+
+.col-lg-3{
+	text-align: center;
+	border: solid orange;
+}
+
+.col-lg-11{
+	background: #E6E6E6;
+	border-radius: 10px;
+	height: 150px;
+	overflow: hidden;
+	margin: 5px;
+
+}
+
+.zoneb{
+border:solid magenta
+}
+
+.container{
+	border: solid gray;
+	border-radius: 10px;
+	margin-top: 5px;
+	
+}
+
+.logSection{
+	
+	text-align: right;
+}
+
+.col-lg-4{
+	border: solid red;
+	text-align: center;
+}
+
+.comments{
+}
+
+.commentsbg{
+	background: #E6E6E6;
+	border-radius: 10px;
+}
+
+
+.top-buffer { 
+	margin-top:20px; 
+
+}
+
+.logo{
+	width: 150px;
+}
+
+
