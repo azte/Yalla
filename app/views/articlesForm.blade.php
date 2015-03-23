@@ -13,7 +13,7 @@
 		    </div>
 
 		 	<div class="form-group col-md-3">
-	      		{{ Form::label('type', 'Tipo') }}
+	      		{{ Form::label('type', 'Categoria') }}
 	     		 {{ Form::select('type', 
 
 	      			array(
