@@ -14,6 +14,7 @@ class Comment extends Eloquent{
         $rules = array(
             
             'comment' => 'required',
+            'email'=>'Required',
 
             
         );
